@@ -1,0 +1,113 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .my-2 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+      #summation-border {
+        border-bottom: 1px solid #555;
+        margin-top: 4px;
+        margin-bottom: 4px
+      }
+
+      .block {
+        display: block;
+      }
+
+      .text-black {
+        color: #000;
+      }
+
+      .italic {
+        font-style: italic
+      }
+
+      .font-bold {
+        font-weight: bold;
+      }
+
+      body {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Your listing for {{ productName }} has sold.
+        </mj-text>
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You’re expected to ship the item within 5 days. Let us know if you need more time and we’ll do our best to give it to you.
+        </mj-text>
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Within 12 hours of shipping the item, reply to this email with a link to the item’s tracking information, a Bitcoin address for your sale proceeds and any pictures you take of the packaging process (see below).
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          The buyer’s shipping address is in the 1-time use link <a href="{{ privnoteHref }}">here</a>. Once you click the link, make sure to securely record the shipping address offline. You will not be able to re-access the address once you’ve closed the link window.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You will permanently lose your listing deposit under the following conditions:
+        </mj-text>
+
+        <mj-list>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            You do not ship the item within the allotted time and do not receive approval for an extension.
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+
+            The delivered item does not match the listed item description. Buyers are asked to video record the unboxing and we routinely route items through trusted parties for quality assurance.
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            The item arrives damaged and you do not provide images that show you followed our packaging guidelines [here(link)].
+          </mj-li>
+        </mj-list>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          To show you followed the packaging guidelines, reply to this email with images of each stage of the packaging process. For example:
+        </mj-text>
+
+        <mj-list>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            The item in a protective inner box or bubble wrap
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            The protected item secured in the outer box
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            The outer box securely taped
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            The shipping label is placed on the box. It’s highly recommended to place the shipping label on the box seal.
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            If you choose to hire a professional to package the item, provide image(s) of the item being handed off to the professional service.
+          </mj-li>
+        </mj-list>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          [Project Notso] will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide with the shipment tracking number within 7 days after delivery has been confirmed.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Please let us know if you have any questions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
