@@ -1,0 +1,49 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a,
+      body,
+      tr {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-text font-size="16px" font-family="Red Hat Display">
+          Your sale listing for {{ productName }} has been canceled.
+        </mj-text>
+
+        <mj-text font-size="16px" font-family="Red Hat Display">
+          Redeem your listing deposit of {{ refundAmountInSats }} sats by scanning the LNURL QR code with your Lightning wallet.
+        </mj-text>
+
+        <mj-image height="300px" width="300px" src="cid:your-qrcode.jpg"></mj-image>
+        <mj-text font-size="16px" font-family="Red Hat Display">
+          {{ lnurl }}
+        </mj-text>
+
+        <mj-text font-size="16px" font-family="Red Hat Display">
+          If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice of the amount owed or your on-chain Bitcoin receive address. We will pay it ASAP.
+        </mj-text>
+
+        <mj-text font-size="16px" font-family="Red Hat Display">
+          Thanks for trying us out. We hope you’ll list your items for sale with us again in the future.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

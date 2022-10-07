@@ -52,7 +52,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          If someone buys the item, you will receive an email with shipping instructions. [Project Notso] will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide 3 days after delivery has been confirmed.
+          If someone buys the item, you will receive an email with shipping instructions. SatsCrap will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide 3 days after delivery has been confirmed.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -73,16 +73,12 @@
           </mj-li>
 
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The item is damaged due to improper packaging. See our packaging requirement here. You will be asked to provide images of the packaging process or evidence that you’ve hired a professional to pack the item.
+            The item is damaged due to improper packaging. See our packaging requirements in the <a href="https://satscrap.com/seller-guidelines">seller guidelines</a>. You will be asked to provide images of the packaging process or evidence that you’ve hired a professional to pack the item.
           </mj-li>
         </mj-list>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Buyers are asked to video record the unboxing of the item and we routinely route items through trusted parties for quality assurance.
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Be aware that if the total sales associated with your email address exceed $600, you may be asked to complete tax documentation.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
