@@ -53,8 +53,13 @@
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           You’re expected to ship the item within 5 days. Let us know if you need more time and we’ll do our best to give it to you.
         </mj-text>
+
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Within 12 hours of shipping the item, reply to this email with a link to the item’s tracking information, a Bitcoin address for your sale proceeds and any pictures you take of the packaging process (see below).
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          <strong>To fully cover the risk of the package being stolen and buyer fraud, you must require the recipient to sign for the delivery.</strong>
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
