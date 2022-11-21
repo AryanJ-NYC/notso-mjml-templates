@@ -48,7 +48,12 @@
     <mj-section>
       <mj-column background-color="#ffffff">
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Your sale listing is live. To edit or delete the listing, click <a href="{{ dashboardLink }}">here</a> (do <strong>NOT</strong> share this link with anyone as it is a secret link that allows you to edit or delete your listing). If you cancel your listing, your listing deposit will be immediately refunded by email as a Lightning enabled LNURL QR code (you may request the refund on Bitcoin mainchain).
+          Your sale listing is live. To edit or delete the listing, click <a href="{{ dashboardLink }}">here</a> (do <strong>NOT</strong> share this link with anyone as it is a secret link that allows you to edit or delete your listing).
+          Click <a href="{{ listingsListUrl }}">here</a> to view all your listings.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          If you cancel your listing, your listing deposit will be immediately refunded by email as a Lightning enabled LNURL QR code (you may request the refund on Bitcoin mainchain).
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
