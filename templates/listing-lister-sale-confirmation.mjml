@@ -50,6 +50,27 @@
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Your listing for {{ productName }} has sold.
         </mj-text>
+
+        <mj-raw>
+          {{#if isFreeShipping}}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Thank you for including free shipping!
+        </mj-text>
+
+        <mj-raw>
+          {{ else }}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          The buyer paid <strong>{{ shippingPriceInBtc }} BTC ({{ shippingPriceInUsd }})</strong> for shipping.
+        </mj-text>
+
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           You’re expected to ship the item within 5 days. Let us know if you need more time and we’ll do our best to give it to you.
         </mj-text>
