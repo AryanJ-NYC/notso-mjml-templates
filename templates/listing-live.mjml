@@ -48,11 +48,7 @@
     <mj-section>
       <mj-column background-color="#ffffff">
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Your sale listing is live. To edit or delete the listing, click <a href="{{ dashboardLink }}">here</a> (do <strong>NOT</strong> share this link with anyone as it is a secret link that allows you to edit or delete your listing).
-        </mj-text>
-
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Click <a href="{{ listingsListUrl }}">here</a> (don't share this link either!) to view all your listings.
+          Your sale listing is live. Click <a href="{{ listingsListUrl }}">here</a> (do <strong>NOT</strong> share this link with anyone as it is a secret link that allows you to edit or delete your listing) to view and edit all your listings.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
