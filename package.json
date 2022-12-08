@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node -P tsconfig.json --files index.ts"
+    "start": "ts-node -P tsconfig.json --files index.ts",
+    "dev": "NODE_ENV=development ts-node -P tsconfig.json --files index.ts"
   },
   "keywords": [
     "node",
