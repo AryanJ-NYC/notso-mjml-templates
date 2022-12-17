@@ -47,6 +47,10 @@
   <mj-body>
     <mj-section>
       <mj-column background-color="#ffffff">
+        <mj-image width="420px" src="https://satscrap.com/logo.png"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Your sale listing is live. Click <a href="{{ listingsListUrl }}">here</a> (do <strong>NOT</strong> share this link with anyone as it is a secret link that allows you to edit or delete your listing) to view and edit all your listings.
         </mj-text>

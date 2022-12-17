@@ -13,7 +13,7 @@ dotenv.config();
 
 const domains = [
   'sandboxa0e011abaa70432c9e8dbcbf44304ff2.mailgun.org', // dev
-  process.env.NODE_ENV !== 'development' ? 'mg.scarce.city' : '', // prod
+  process.env.NODE_ENV !== 'development' ? 'mg.satscrap.com' : '', // prod
 ].filter(Boolean);
 
 async function main() {
