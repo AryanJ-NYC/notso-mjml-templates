@@ -87,6 +87,10 @@
           <strong>To fully cover the risk of the package being stolen and buyer fraud, you must provide tracking and require the recipient to sign for the delivery.</strong>
         </mj-text>
 
+         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          <strong>Have an additional {{ productName }}? You can quickly re-list it <a href="{{ relistHref }}">here</a>.
+        </mj-text>
+
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           The buyer’s shipping address is in the 1-time use link <a href="{{ privnoteHref }}">here</a>. Once you click the link, make sure to securely record the shipping address offline. You will not be able to re-access the address once you’ve closed the link window.
         </mj-text>
