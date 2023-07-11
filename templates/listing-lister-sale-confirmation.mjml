@@ -111,24 +111,6 @@
           </mj-li>
         </mj-list>
 
-        <mj-list>
-          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The item in a protective inner box or bubble wrap
-          </mj-li>
-          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The protected item secured in the outer box
-          </mj-li>
-          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The outer box securely taped
-          </mj-li>
-          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The shipping label is placed on the box. It’s highly recommended to place the shipping label on the box seal.
-          </mj-li>
-          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            If you choose to hire a professional to package the item, provide image(s) of the item being handed off to the professional service.
-          </mj-li>
-        </mj-list>
-
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           SatsCrap will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide with the shipment tracking number within 7 days after delivery has been confirmed.
         </mj-text>
