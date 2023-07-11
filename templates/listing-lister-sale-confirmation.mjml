@@ -76,7 +76,7 @@
         </mj-raw>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          You’re expected to ship the item within 5 days. Let us know if you need more time and we’ll do our best to give it to you.
+          You’re expected to ship the item within 3 business days. Please let us know if you need more time and we’ll do our best to give it to you.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -84,10 +84,10 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          <strong>To fully cover the risk of the package being stolen and buyer fraud, you must provide tracking and require the recipient to sign for the delivery.</strong>
+          <strong>To fully cover the risk of the package being stolen and buyer fraud, you must provide tracking, require the recipient to sign for the delivery, and share images of the packaging meeting our <a href="https://satscrap.com/seller-guidelines">seller guidelines</a></<strong>
         </mj-text>
 
-         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           <strong>Have an additional {{ productName }}? You can quickly re-list it <a href="{{ relistHref }}">here</a>.
         </mj-text>
 
@@ -101,20 +101,15 @@
 
         <mj-list>
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            You do not ship the item within the allotted time and do not receive approval for an extension.
+            You do not ship it within the allotted time.
           </mj-li>
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The delivered item does not match the listed item description. Buyers are asked to video record the unboxing and we routinely route items through trusted parties for quality assurance.
+            The delivered item does not match the listed item description.
           </mj-li>
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The item arrives damaged and you do not provide images that show you followed our <a href="https://satscrap.com/seller-guidelines">packaging guidelines</a>.
-            <em>Be aware that if an item is sent without tracking and signature requirement and the buyer claims to not receive it, we can not distribute proceeds to you.</em>
+            The item is damaged due to improper packaging.
           </mj-li>
         </mj-list>
-
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          To show you followed the packaging guidelines, reply to this email with images of each stage of the packaging process. For example:
-        </mj-text>
 
         <mj-list>
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
