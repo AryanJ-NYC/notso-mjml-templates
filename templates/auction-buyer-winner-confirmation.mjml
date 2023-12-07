@@ -1,0 +1,69 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a,
+      body,
+      tr {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image width="420px" src="https://satscrap.com/logo.png"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Congratulations {{ winnerName }}! You've won the Lightning Auction for <span class="font-bold text-black">{{ auctionTitle }}</span>!
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display" font-weight="bold">
+          You have 24 hours to pay your final bid.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          If you do not pay the full bid amount within the required time period, you will lose the right to purchase the item and your bid deposits will NOT be refunded.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          We will send you tracking information once the item ships.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Return to the <a href="{{ auctionUrl }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic" font-weight="bold">{{ authCode }}</span> with your delivery information and pay your balance.
+        </mj-text>t>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          <span class="font-bold">Note:</span> Your total bid deposit will be refunded by email within 24 hours of completing payment.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          To protect your privacy, your shipping address will be deleted from our database after delivery is confirmed.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Please let me know if you have any questions.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
+          <a href="https://scarce.city">
+            Scarce City</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
