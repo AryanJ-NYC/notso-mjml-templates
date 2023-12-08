@@ -1,0 +1,124 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Red Hat Display" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-style>
+      a {
+        color: #4299e1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .my-2 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+      #summation-border {
+        border-bottom: 1px solid #555;
+        margin-top: 4px;
+        margin-bottom: 4px
+      }
+
+      .block {
+        display: block;
+      }
+
+      .text-black {
+        color: #000;
+      }
+
+      .italic {
+        font-style: italic
+      }
+
+      .font-bold {
+        font-weight: bold;
+      }
+
+      body {
+        font-family: 'Red Hat Display', 'Arial'
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="#ffffff">
+        <mj-image width="420px" src="https://satscrap.com/logo.png"></mj-image>
+
+        <mj-divider border-color="#000000"></mj-divider>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Your auction for {{ productName }} has been purchased!
+        </mj-text>
+
+        <mj-raw>
+          {{#if isFreeShipping}}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Thank you for including free shipping!
+        </mj-text>
+
+        <mj-raw>
+          {{ else }}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          The buyer paid <strong>{{ shippingPriceInSats }} sats ({{ shippingPriceInUsd }})</strong> for shipping.
+        </mj-text>
+
+        <mj-raw>
+          {{/if}}
+        </mj-raw>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You’re expected to ship the item within 3 business days. Please let us know if you need more time and we’ll do our best to give it to you.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Within 12 hours of shipping the item, reply to this email with a link to the item’s tracking information, a Bitcoin address for your sale proceeds and any pictures you take of the packaging process (see below).
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          <strong>To fully cover the risk of the package being stolen and buyer fraud, you must provide tracking, require the recipient to sign for the delivery, and share images of the packaging meeting our <a href="https://satscrap.com/seller-guidelines">seller guidelines</a></strong>
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          <strong>Have an additional {{ productName }}? You can quickly re-list it <a href="{{ relistHref }}">here</a>.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          The buyer’s shipping address is in the 1-time use link <a href="{{ privnoteHref }}">here</a>. Once you click the link, make sure to securely record the shipping address offline. You will not be able to re-access the address once you’ve closed the link window.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You will permanently lose your auction deposit under the following conditions:
+        </mj-text>
+
+        <mj-list>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            You do not ship it within the allotted time.
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            The delivered item does not match the listed item description.
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            The item is damaged due to improper packaging.
+          </mj-li>
+        </mj-list>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          SatsCrap will release sale proceeds (minus a 15% commission fee, adjusted for your auction deposit) to the Bitcoin address you provide with the shipment tracking number within 7 days after delivery has been confirmed.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Please let us know if you have any questions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
