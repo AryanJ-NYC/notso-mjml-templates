@@ -11,9 +11,19 @@
         text-decoration: underline;
       }
 
-      a,
-      body,
-      tr {
+      .text-black {
+        color: #000;
+      }
+
+      .italic {
+        font-style: italic
+      }
+
+      .font-bold {
+        font-weight: bold;
+      }
+
+      body {
         font-family: 'Red Hat Display', 'Arial'
       }
     </mj-style>
@@ -44,8 +54,13 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Return to the <a href="{{ auctionUrl }}">auction page</a> and input <span class="font-bold text-black">Auth Code</span> <span class="italic" font-weight="bold">{{ authCode }}</span> with your delivery information and pay your balance.
-        </mj-text>t>
+          Return to the <a href="{{ auctionUrl }}">auction page</a> and input the <span class="font-bold text-black">Auth Code</span> below with your delivery information and pay your balance.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          <span class="italic font-bold">{{ authCode }}</span>
+        </mj-text>
+
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           <span class="font-bold">Note:</span> Your total bid deposit will be refunded by email within 24 hours of completing payment.
