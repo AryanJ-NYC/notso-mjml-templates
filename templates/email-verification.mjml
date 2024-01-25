@@ -45,7 +45,7 @@
           Thank you for signing up with us.
         </mj-text>
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Please verify your email address and complete your registration
+          Please verify your email address and complete your registration.
         </mj-text>
 
         <mj-button border-radius="40px" background-color="#FFAF0F" href="{{ emailVerificationHref }}">Verify Email</mj-button>
@@ -54,9 +54,9 @@
           Please let me know if you have any questions.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Chris<br />
-          <a href="https://scarce.city">
-            Scarce City</a>
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Chris<br />
+          <a href="https://satscrap.com">SatsCrap</a>
         </mj-text>
       </mj-column>
     </mj-section>
