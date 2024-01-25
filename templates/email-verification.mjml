@@ -33,7 +33,7 @@
   <mj-body>
     <mj-section>
       <mj-column background-color="#ffffff">
-        <mj-image width="420px" src="https://satscrap.com/logo.png"></mj-image>
+        <mj-image width="420px" src="https://satscrap.com/logo-black.png"></mj-image>
 
         <mj-divider border-color="#000000"></mj-divider>
 
