@@ -47,6 +47,12 @@
         <mj-text font-size="16px" font-family="Red Hat Display">
           Thanks for trying us out. We hope you’ll list your items for sale with us again in the future.
         </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Happy Selling,<br />
+          <a href="https://satscrap.com">
+            SatsCrap
+          </a>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

@@ -52,15 +52,23 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Your sale listing is live. Click <a href="{{ listingsListUrl }}">here to view, edit, or delete</a> any of your listings. Do <strong>NOT</strong> share this link with anyone.
+         Your seven day auction is set to begin at 3pm EST. We may email you for additional collateral if your item is especially high-value.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          If you cancel your listing, your listing deposit will be immediately refunded by email as a Lightning enabled LNURL QR code (you may request the refund on Bitcoin mainchain).
+          Register and login with this email address, select Dashboard from the menu to edit or delete your auction before it begins. <strong>Once your auction begins, it cannot be edited or canceled.</strong>
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          If someone buys the item, you will receive an email with shipping instructions. SatsCrap will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide 3 days after delivery has been confirmed.
+         If your auction receives a successful bid, you’ll receive shipping instructions by email. If you cancel your auction before it begins or you do not receive a successful bid, your listing deposit will be immediately refunded by email as a lightning-enabled LNURL QR code.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You’re expected to ship the item and provide tracking information within 4 days of the auction ending.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          SatsCrap will release your sale proceeds and listing deposit refund in bitcoin by email within 4 days of delivery confirmation.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -73,7 +81,7 @@
           </mj-li>
 
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The item sells and you do not ship it within the allotted time.
+            The item sells and you do not ship it with tracking within the allotted time.
           </mj-li>
 
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -81,9 +89,13 @@
           </mj-li>
 
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The item is damaged due to improper packaging. See our packaging requirements in the <a href="https://satscrap.com/seller-guidelines">seller guidelines</a>. You will be asked to provide images of the packaging process or evidence that you’ve hired a professional to pack the item.
+            The item is damaged due to improper packaging.
           </mj-li>
         </mj-list>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          See our <a href="https://satscrap.com/seller-guidelines">Seller Guidelines</a> for details.
+        </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Buyers are asked to video record the unboxing of the item and we routinely route items through trusted parties for quality assurance.
