@@ -63,7 +63,7 @@
 
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          <span class="font-bold">Note:</span> Your total bid deposit will be refunded by email within 24 hours of completing payment.
+          <span class="font-bold">Note:</span> Your total bid deposit will be deducted from your balance.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
