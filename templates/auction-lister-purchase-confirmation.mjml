@@ -68,7 +68,7 @@
         </mj-raw>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          The buyer paid <strong>{{ shippingPriceInSats }} sats ({{ shippingPriceInUsd }})</strong> for shipping.
+          The buyer paid <strong>{{ shippingPriceInSats }} sats</strong> for shipping.
         </mj-text>
 
         <mj-raw>
@@ -80,12 +80,24 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Within 12 hours of shipping the item, reply to this email with a link to the item’s tracking information, a Bitcoin address for your sale proceeds and any pictures you take of the packaging process (see below).
+          Within 12 hours of shipping the item, reply to this email with a link to the item’s tracking information and any pictures you take of the packaging process (see below).
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          <strong>To fully cover the risk of the package being stolen and buyer fraud, you must provide tracking, require the recipient to sign for the delivery, and share images of the packaging meeting our <a href="https://satscrap.com/seller-guidelines">seller guidelines</a></strong>
+          To fully cover the risk of the package being stolen and buyer fraud, you must:
         </mj-text>
+
+        <mj-list>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            Provide a tracking link.
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            Require the recipient to sign for the delivery.
+          </mj-li>
+          <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
+            Use a premium delivery service, such as UPS, FedEx, DHL (not local postal services) for Intercontinental shipments. Local postal services for shipments within your region are acceptable.
+          </mj-li>
+        </mj-list>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           <strong>Have an additional {{ productName }}? You can quickly re-list it <a href="{{ relistHref }}">here</a>.
@@ -112,7 +124,7 @@
         </mj-list>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          SatsCrap will release sale proceeds (minus a 15% commission fee, adjusted for your auction deposit) to the Bitcoin address you provide with the shipment tracking number within 7 days after delivery has been confirmed.
+          SatsCrap will release sale proceeds (adjusted for fees and your auction deposit) in bitcoin redeemable onchain or Lightning by email within 4 days of delivery confirmation.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
