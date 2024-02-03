@@ -28,11 +28,11 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
-          Your sale listing for {{ productName }} has been canceled.
+          Your {{ productName }} drop has been canceled.
         </mj-text>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
-          Redeem your listing deposit of {{ refundAmountInSats }} sats by scanning the LNURL QR code with your Lightning wallet.
+          Redeem your deposit of {{ refundAmountInSats }} sats by scanning the LNURL QR code with your Lightning wallet.
         </mj-text>
 
         <mj-image height="300px" width="300px" src="cid:{{ lnurl }}.jpg"></mj-image>
