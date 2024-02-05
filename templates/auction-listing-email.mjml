@@ -52,7 +52,11 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-         Your seven day auction is set to begin at 3pm EST. We may email you for additional collateral if your item is especially high-value.
+          Your auction is pre-live. Click <a href="{{ encryptedDashboardUrl }}">here to view, edit, or delete</a> any of your drops. Do <strong>NOT</strong> share this link with anyone.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Your seven day auction is set to begin at 3pm EST. We may email you for additional collateral if your item is especially high-value.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -60,7 +64,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-         If your auction receives a successful bid, you’ll receive shipping instructions by email. If you cancel your auction before it begins or you do not receive a successful bid, your listing deposit will be immediately refunded by email as a lightning-enabled LNURL QR code.
+          If your auction receives a successful bid, you’ll receive shipping instructions by email. If you cancel your auction before it begins or you do not receive a successful bid, your listing deposit will be immediately refunded by email as a lightning-enabled LNURL QR code.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
