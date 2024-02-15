@@ -38,7 +38,7 @@
         <mj-divider border-color="#000000"></mj-divider>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
-          Your bid deposit refund of {{ refundAmountInSats }} sats is now available to be redeemed. Scan the QR code with your Lightning wallet to redeem it immediately.
+          Your auction deposit refund of {{ refundAmountInSats }} sats is now available to be redeemed. Scan the QR code with your Lightning wallet to redeem it immediately.
         </mj-text>
 
         <mj-image height="300px" width="300px" src="cid:{{ lnurl }}.jpg"></mj-image>
@@ -52,10 +52,10 @@
         </mj-text>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
-          Thank you for participating in the auction!
+          Thank you for listing with us!
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Happy Bidding,<br />
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Happy Selling,<br />
           <a href="https://satscrap.com">
             SatsCrap
           </a>
