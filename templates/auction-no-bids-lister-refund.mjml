@@ -41,6 +41,10 @@
           Your auction deposit refund of {{ refundAmountInSats }} sats is now available to be redeemed. Scan the QR code with your Lightning wallet to redeem it immediately.
         </mj-text>
 
+        <mj-text font-size="16px" font-family="Red Hat Display">
+          This refund includes all listing deposits for auctions that did not receive a bid.
+        </mj-text>
+
         <mj-image height="300px" width="300px" src="cid:{{ lnurl }}.jpg"></mj-image>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
