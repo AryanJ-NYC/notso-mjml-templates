@@ -41,7 +41,7 @@
         </mj-text>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
-          If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice of the amount owed or your on-chain Bitcoin receive address. We will pay it ASAP.
+          If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice or address. Let us know if these options don't work for you and we'll send your refund via River Link through which you can withdraw over Lightning or onchain with applicable transaction fees. We will pay it ASAP.
         </mj-text>
 
         <mj-text font-size="16px" font-family="Red Hat Display">
