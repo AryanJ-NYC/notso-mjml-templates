@@ -56,7 +56,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          If you cancel your listing, your listing deposit will be immediately refunded by email as a Lightning enabled LNURL QR code (you may request the refund on Bitcoin mainchain).
+          If you cancel your listing, your listing deposit will be immediately refunded by email as a Lightning enabled LNURL QR code (you may request the refund on Bitcoin mainchain). If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice or address. Let us know if these options don't work for you and we'll send your refund via River Link through which you can withdraw over Lightning or onchain with applicable transaction fees.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
