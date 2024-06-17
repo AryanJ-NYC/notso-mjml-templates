@@ -51,6 +51,10 @@
         <mj-button border-radius="40px" background-color="#FFAF0F" href="{{ emailVerificationHref }}">Verify Email</mj-button>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          You can then verify your Twitter account to list without bitcoin deposits and get unlimited bidding.
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Please let me know if you have any questions.
         </mj-text>
 
