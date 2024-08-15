@@ -47,7 +47,7 @@
   <mj-body>
     <mj-section>
       <mj-column background-color="#ffffff">
-        <mj-image width="420px" src="https://satscrap.com/logo-black.png"></mj-image>
+        <mj-image width="420px" src="https://satstash.io/logo-black.png"></mj-image>
 
         <mj-divider border-color="#000000"></mj-divider>
 
@@ -60,7 +60,7 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          If someone buys the item, you will receive an email with shipping instructions. SatsCrap will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide 3 days after delivery has been confirmed.
+          If someone buys the item, you will receive an email with shipping instructions. SatStash will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide 3 days after delivery has been confirmed.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -81,7 +81,7 @@
           </mj-li>
 
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The item is damaged due to improper packaging. See our packaging requirements in the <a href="https://satscrap.com/seller-guidelines">seller guidelines</a>. You will be asked to provide images of the packaging process or evidence that you’ve hired a professional to pack the item.
+            The item is damaged due to improper packaging. See our packaging requirements in the <a href="https://satstash.io/seller-guidelines">seller guidelines</a>. You will be asked to provide images of the packaging process or evidence that you’ve hired a professional to pack the item.
           </mj-li>
         </mj-list>
 
@@ -94,8 +94,8 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Happy Selling,<br />
-          <a href="https://satscrap.com">
-            SatsCrap
+          <a href="https://satstash.io">
+            SatStash
           </a>
         </mj-text>
       </mj-column>

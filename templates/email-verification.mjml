@@ -33,7 +33,7 @@
   <mj-body>
     <mj-section>
       <mj-column background-color="#ffffff">
-        <mj-image width="420px" src="https://satscrap.com/logo-black.png"></mj-image>
+        <mj-image width="420px" src="https://satstash.io/logo-black.png"></mj-image>
 
         <mj-divider border-color="#000000"></mj-divider>
 
@@ -59,8 +59,8 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Happy Selling,<br />
-          <a href="https://satscrap.com">
-            SatsCrap
+          <a href="https://satstash.io">
+            SatStash
           </a>
         </mj-text>
       </mj-column>
