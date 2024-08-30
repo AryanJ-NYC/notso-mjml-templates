@@ -56,14 +56,14 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          The seller is expected to ship the item within one week. Once the item ships, we’ll share tracking information and instructions for receiving the item.
+          The seller is expected to ship the item within 4 days. We’ll share tracking information once the item ships.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Please let us know if you have any questions.
         </mj-text>
 
-        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Happy Bidding,<br />
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">Happy Stashing,<br />
           <a href="https://satstash.io">
             SatStash
           </a>

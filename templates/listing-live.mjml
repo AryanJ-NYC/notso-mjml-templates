@@ -56,11 +56,11 @@
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          If you cancel your listing, your listing deposit will be immediately refunded by email as a Lightning enabled LNURL QR code (you may request the refund on Bitcoin mainchain). If you're not able to withdraw from the LNURL QR code, please reply with a Lightning invoice or address. Let us know if these options don't work for you and we'll send your refund via River Link through which you can withdraw over Lightning or onchain with applicable transaction fees.
+          If you cancel your listing, your listing deposit will be immediately refunded by email as a Lightning enabled LNURL QR code. If you're not able to withdraw from the LNURL QR code, reply with a Lightning invoice/address or Bitcoin onchain address.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          If someone buys the item, you will receive an email with shipping instructions. SatStash will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide 3 days after delivery has been confirmed.
+          If someone buys the item, you will receive an email with shipping instructions. Within 4 days of delivery confirmation, SatStash will release sale proceeds in bitcoin (adjusted for your listing deposit) withdrawable over Lightning or onchain.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -69,7 +69,7 @@
 
         <mj-list>
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            You attempt to list contraband. See this list for guidance.
+            You attempt to list contraband.
           </mj-li>
 
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -81,9 +81,13 @@
           </mj-li>
 
           <mj-li font-size="16px" color="#000000" font-family="Red Hat Display">
-            The item is damaged due to improper packaging. See our packaging requirements in the <a href="https://satstash.io/seller-guidelines">seller guidelines</a>. You will be asked to provide images of the packaging process or evidence that you’ve hired a professional to pack the item.
+            The item is damaged due to improper packaging.
           </mj-li>
         </mj-list>
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          See our <a href="https://satstash.io/seller-guidelines">Seller Guidelines</a> for more details.
+        </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
           Buyers are asked to video record the unboxing of the item and we routinely route items through trusted parties for quality assurance.
