@@ -76,11 +76,11 @@
         </mj-raw>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          You’re expected to ship the item within 3 business days. Please let us know if you need more time and we’ll do our best to give it to you.
+          You’re expected to ship the item within 4 business days. Let us know if you need more time and we’ll do our best to give it to you.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          Within 12 hours of shipping the item, reply to this email with a link to the item’s tracking information, a Bitcoin address for your sale proceeds and any pictures you take of the packaging process (see below).
+          Within 12 hours of shipping the item, reply to this email with a link to the item’s tracking information and any pictures you take of the packaging process (see below).
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
@@ -112,7 +112,12 @@
         </mj-list>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
-          SatStash will release sale proceeds (minus a 10% commission fee, adjusted for your listing listing deposit) to the Bitcoin address you provide with the shipment tracking number within 7 days after delivery has been confirmed.
+          See our <a href="https://satstash.io/seller-guidelines">Seller Guidelines</a> for more details.
+        </mj-text>
+
+
+        <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
+          Within 4 days of delivery confirmation, SatStash will release sale proceeds in bitcoin (adjusted for your listing deposit) via River Link through which you can withdraw over Lightning or onchain. You may also provide an onchain Bitcoin address if you prefer to receive funds directly.
         </mj-text>
 
         <mj-text font-size="16px" color="#000000" font-family="Red Hat Display">
